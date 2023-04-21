@@ -1,16 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to AWS Project" />
+  <!-- <HomeWorld/> -->
+  <!-- <TwoWayBind/> -->
+  <!-- <GetInputField/> -->
+  <!-- <CheckRadiBut/> -->
+  <!-- <IfElse/> -->
+  <!-- <ForLoop/> -->
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import HelloWorld from './components/HelloWorld.vue';
+// import HomeWorld from './components/HomeWorld.vue';
+// import TwoWayBind from './components/TwoWayBind.vue';
+// import GetInputField from './components/GetInputField.vue';
+// import CheckRadiBut from './components/CheckRadiBut.vue';
+// import ForLoop from './components/ForLoop.vue';
+// import IfElse from './components/IfElse.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HomeWorld,
+    HelloWorld,
+    // TwoWayBind,
+    // GetInputField,
+    // CheckRadiBut,
+    // IfElse,
+    // ForLoop
+}
 }
 </script>
 
