@@ -10,7 +10,8 @@
   <!-- <ReuseCompo/> -->
   <!-- <HtmlBin/> -->
   <!-- <ClassBin/> -->
-  <PropBase/>
+  <!-- <PropBase/> -->
+  <RefDom/>
  
 </template>
 
@@ -19,7 +20,8 @@
 
 // import BaseHome from './components/BaseHome.vue';
 // import ClassBin from './components/ClassBin.vue';
-import PropBase from './components/PropBase.vue';
+// import PropBase from './components/PropBase.vue';
+import RefDom from './components/RefDom.vue';
 // import HtmlBin from './components/HtmlBin.vue';
 // import ReuseCompo from './components/ReuseCompo.vue';
 // import HelloWorld from './components/HelloWorld.vue';
@@ -45,7 +47,8 @@ export default {
     // ReuseCompo,
     // HtmlBin,
     // ClassBin,
-    PropBase
+    // PropBase,
+    RefDom
 }
 }
 </script>
