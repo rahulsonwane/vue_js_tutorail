@@ -1,17 +1,28 @@
 <template>
-  <HelloWorld msg="Welcome to AWS Project" />
+  <!-- <HelloWorld msg="Welcome to AWS Project" /> -->
   <!-- <HomeWorld/> -->
   <!-- <TwoWayBind/> -->
   <!-- <GetInputField/> -->
   <!-- <CheckRadiBut/> -->
   <!-- <IfElse/> -->
   <!-- <ForLoop/> -->
+  <!-- <BaseHome/> -->
+  <!-- <ReuseCompo/> -->
+  <!-- <HtmlBin/> -->
+  <!-- <ClassBin/> -->
+  <PropBase/>
+ 
 </template>
 
 
 <script>
 
-import HelloWorld from './components/HelloWorld.vue';
+// import BaseHome from './components/BaseHome.vue';
+// import ClassBin from './components/ClassBin.vue';
+import PropBase from './components/PropBase.vue';
+// import HtmlBin from './components/HtmlBin.vue';
+// import ReuseCompo from './components/ReuseCompo.vue';
+// import HelloWorld from './components/HelloWorld.vue';
 // import HomeWorld from './components/HomeWorld.vue';
 // import TwoWayBind from './components/TwoWayBind.vue';
 // import GetInputField from './components/GetInputField.vue';
@@ -20,16 +31,21 @@ import HelloWorld from './components/HelloWorld.vue';
 // import IfElse from './components/IfElse.vue';
 
 
+
 export default {
   name: 'App',
   components: {
     // HomeWorld,
-    HelloWorld,
+    // HelloWorld,
     // TwoWayBind,
     // GetInputField,
     // CheckRadiBut,
     // IfElse,
-    // ForLoop
+    // BaseHome,
+    // ReuseCompo,
+    // HtmlBin,
+    // ClassBin,
+    PropBase
 }
 }
 </script>
