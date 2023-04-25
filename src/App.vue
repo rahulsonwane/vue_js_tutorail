@@ -12,6 +12,7 @@
   <!-- <ClassBin/> -->
   <!-- <PropBase/> -->
   <RefDom/>
+  <MakeForm/>
  
 </template>
 
@@ -21,7 +22,8 @@
 // import BaseHome from './components/BaseHome.vue';
 // import ClassBin from './components/ClassBin.vue';
 // import PropBase from './components/PropBase.vue';
-import RefDom from './components/RefDom.vue';
+import MakeForm from './components/MakeForm.vue';
+// import RefDom from './components/RefDom.vue';
 // import HtmlBin from './components/HtmlBin.vue';
 // import ReuseCompo from './components/ReuseCompo.vue';
 // import HelloWorld from './components/HelloWorld.vue';
@@ -48,7 +50,8 @@ export default {
     // HtmlBin,
     // ClassBin,
     // PropBase,
-    RefDom
+    // RefDom,
+    MakeForm
 }
 }
 </script>
