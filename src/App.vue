@@ -11,18 +11,21 @@
   <!-- <HtmlBin/> -->
   <!-- <ClassBin/> -->
   <!-- <PropBase/> -->
-  <RefDom/>
-  <MakeForm/>
+  <!-- <RefDom/> -->
+  <!-- <MakeForm/> -->
+  <FormModifier/>
  
 </template>
 
 
 <script>
+import FormModifier from './components/FormModifier.vue';
+
 
 // import BaseHome from './components/BaseHome.vue';
 // import ClassBin from './components/ClassBin.vue';
 // import PropBase from './components/PropBase.vue';
-import MakeForm from './components/MakeForm.vue';
+// import MakeForm from './components/MakeForm.vue';
 // import RefDom from './components/RefDom.vue';
 // import HtmlBin from './components/HtmlBin.vue';
 // import ReuseCompo from './components/ReuseCompo.vue';
@@ -39,19 +42,7 @@ import MakeForm from './components/MakeForm.vue';
 export default {
   name: 'App',
   components: {
-    // HomeWorld,
-    // HelloWorld,
-    // TwoWayBind,
-    // GetInputField,
-    // CheckRadiBut,
-    // IfElse,
-    // BaseHome,
-    // ReuseCompo,
-    // HtmlBin,
-    // ClassBin,
-    // PropBase,
-    // RefDom,
-    MakeForm
+    FormModifier
 }
 }
 </script>

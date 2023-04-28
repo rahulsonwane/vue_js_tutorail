@@ -3,7 +3,6 @@
 <ul>
     <li v-for="item in error" :key="item">
         {{ item }} not valid
-
     </li>
 </ul>
 <form>
