@@ -1,13 +1,11 @@
 <template>
 <h1> Welcome to Vue Js Form </h1>
+<ul>
+    <li v-for="item in error" :key="item">
+        {{ item }} not valid
 
-<p v-for="item in form" :key="item">
-    <ul>
-       {{ item}}
-       
-    </ul>
-    
-</p>
+    </li>
+</ul>
 <form>
     <div class="email">
         <label> Email : </label>
@@ -16,7 +14,7 @@
 
     <div class="pass">
         <label> Pass : </label>
-        <input type="password" name="password" placeholder="Enter password" v-model="form.password">
+        <input type="password" name="password" placeholder="Enter password" v-model="form.password"  v-bind:maxlength="4">
     </div>
     <br /> <br />
     <div class="select">
@@ -56,18 +54,29 @@ export default {
     data() {
         return {
             form: {
-                email: " ",
-                password: " ",
-                country: " ",
+                email: "",
+                password: "",
+                country: "",
+                Gender: "",
                 technology: [],
-                Gender: " "
 
-            }
+            },
+            error: []
         }
+
     },
     methods: {
         login() {
-            console.log("login data", this.form)
+            this.error = [];
+            for (const item in this.form) {
+                if (this.form[item] === "" || this.form[item].length === 0) {
+                    this.error.push(item)
+                }
+            }
+            if (this.error.length === 0) {
+                alert("Data has been submitted Submitted")
+            }
+            console.warn("login data", this.form, this.error)
         }
     }
 }
