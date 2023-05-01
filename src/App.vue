@@ -13,13 +13,15 @@
   <!-- <PropBase/> -->
   <!-- <RefDom/> -->
   <!-- <MakeForm/> -->
-  <FormModifier/>
+  <!-- <FormModifier/> -->
+  <PassNonProps/>
  
 </template>
 
 
 <script>
-import FormModifier from './components/FormModifier.vue';
+// import FormModifier from './components/FormModifier.vue';
+import PassNonProps from './components/PassNonProps.vue';
 
 
 // import BaseHome from './components/BaseHome.vue';
@@ -42,7 +44,8 @@ import FormModifier from './components/FormModifier.vue';
 export default {
   name: 'App',
   components: {
-    FormModifier
+    // FormModifier,
+    PassNonProps
 }
 }
 </script>
