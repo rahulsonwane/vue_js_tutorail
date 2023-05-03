@@ -20,7 +20,7 @@ export default {
 <style>
 .card {
     border: 1px black solid;
-
+    width: 500px;
     background: aquamarine;
     height: 200px;
     margin-bottom: 3px;

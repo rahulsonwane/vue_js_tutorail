@@ -16,7 +16,8 @@
   <!-- <FormModifier/> -->
   <!-- <PassNonProps/> -->
   <!-- <WaTchers/> -->
-<BaseSlot/>
+<!-- <BaseSlot/> -->
+<DnyCom/>
 </template>
 
 
@@ -24,7 +25,8 @@
 // import FormModifier from './components/FormModifier.vue';
 // import PassNonProps from './components/PassNonProps.vue';
 
-import BaseSlot from './components/BaseSlot.vue';
+// import BaseSlot from './components/BaseSlot.vue';
+import DnyCom from './components/DnyCom.vue';
 // import WaTchers from './components/WaTchers.vue';
 
 
@@ -51,7 +53,8 @@ export default {
     // FormModifier,
     // PassNonProps,
     // WaTchers,
-    BaseSlot
+    // BaseSlot,
+    DnyCom
 }
 }
 </script>
