@@ -15,15 +15,17 @@
   <!-- <MakeForm/> -->
   <!-- <FormModifier/> -->
   <!-- <PassNonProps/> -->
-  <WaTchers/>
- 
+  <!-- <WaTchers/> -->
+<BaseSlot/>
 </template>
 
 
 <script>
 // import FormModifier from './components/FormModifier.vue';
 // import PassNonProps from './components/PassNonProps.vue';
-import WaTchers from './components/WaTchers.vue';
+
+import BaseSlot from './components/BaseSlot.vue';
+// import WaTchers from './components/WaTchers.vue';
 
 
 // import BaseHome from './components/BaseHome.vue';
@@ -48,7 +50,8 @@ export default {
   components: {
     // FormModifier,
     // PassNonProps,
-    WaTchers
+    // WaTchers,
+    BaseSlot
 }
 }
 </script>
