@@ -12,6 +12,7 @@
 <script>
 export default {
     name: "NonProp",
+    // inheritAttrs: false,
     props: {
         data: String
     }
