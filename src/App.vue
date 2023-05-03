@@ -17,16 +17,21 @@
   <!-- <PassNonProps/> -->
   <!-- <WaTchers/> -->
 <!-- <BaseSlot/> -->
-<DnyCom/>
+<!-- <DnyCom/> -->
+<Teleport to="#footer">
+  <FooterTele/>
+</Teleport>
+
 </template>
 
 
 <script>
+import FooterTele from './components/FooterTele.vue';
 // import FormModifier from './components/FormModifier.vue';
 // import PassNonProps from './components/PassNonProps.vue';
 
 // import BaseSlot from './components/BaseSlot.vue';
-import DnyCom from './components/DnyCom.vue';
+// import DnyCom from './components/DnyCom.vue';
 // import WaTchers from './components/WaTchers.vue';
 
 
@@ -54,7 +59,8 @@ export default {
     // PassNonProps,
     // WaTchers,
     // BaseSlot,
-    DnyCom
+    // DnyCom,
+    FooterTele
 }
 }
 </script>
