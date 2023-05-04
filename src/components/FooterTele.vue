@@ -7,4 +7,4 @@
 export default{
     name:"FooterTele"
 }
-</script>
+</script>   

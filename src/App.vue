@@ -17,16 +17,18 @@
   <!-- <PassNonProps/> -->
   <!-- <WaTchers/> -->
 <!-- <BaseSlot/> -->
-<!-- <DnyCom/> -->
+<!-- <DnyCom/>
 <Teleport to="#footer">
   <FooterTele/>
-</Teleport>
+</Teleport> -->
+<BeforCreat/>
 
 </template>
 
 
 <script>
-import FooterTele from './components/FooterTele.vue';
+import BeforCreat from './components/BeforCreat.vue';
+// import FooterTele from './components/FooterTele.vue';
 // import FormModifier from './components/FormModifier.vue';
 // import PassNonProps from './components/PassNonProps.vue';
 
@@ -60,8 +62,9 @@ export default {
     // WaTchers,
     // BaseSlot,
     // DnyCom,
-    FooterTele
-}
+    // FooterTele,
+    BeforCreat
+} 
 }
 </script>
 
