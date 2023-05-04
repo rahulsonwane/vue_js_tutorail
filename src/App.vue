@@ -21,13 +21,17 @@
 <Teleport to="#footer">
   <FooterTele/>
 </Teleport> -->
-<BeforCreat/>
+<!-- <BeforCreat/> -->
+<!-- <BefMount/>, -->
+<BefUpdate/>
 
 </template>
 
 
 <script>
-import BeforCreat from './components/BeforCreat.vue';
+// import BefMount from './components/BefMount.vue';
+import BefUpdate from './components/BefUpdate.vue';
+// import BeforCreat from './components/BeforCreat.vue';
 // import FooterTele from './components/FooterTele.vue';
 // import FormModifier from './components/FormModifier.vue';
 // import PassNonProps from './components/PassNonProps.vue';
@@ -63,7 +67,9 @@ export default {
     // BaseSlot,
     // DnyCom,
     // FooterTele,
-    BeforCreat
+    // BeforCreat,
+    // BefMount,
+    BefUpdate
 } 
 }
 </script>
