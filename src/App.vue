@@ -23,14 +23,16 @@
 </Teleport> -->
 <!-- <BeforCreat/> -->
 <!-- <BefMount/>, -->
-<BefUpdate/>
+<!-- <BefUpdate/> -->
+<BeforUnMount/>
 
 </template>
 
 
 <script>
 // import BefMount from './components/BefMount.vue';
-import BefUpdate from './components/BefUpdate.vue';
+// import BefUpdate from './components/BefUpdate.vue';
+import BeforUnMount from './components/BeforUnMount.vue';
 // import BeforCreat from './components/BeforCreat.vue';
 // import FooterTele from './components/FooterTele.vue';
 // import FormModifier from './components/FormModifier.vue';
@@ -69,7 +71,8 @@ export default {
     // FooterTele,
     // BeforCreat,
     // BefMount,
-    BefUpdate
+    // BefUpdate,
+    BeforUnMount
 } 
 }
 </script>
